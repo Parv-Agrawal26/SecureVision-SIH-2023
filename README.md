@@ -31,3 +31,6 @@ SecureVision-SIH-2023 is our project for Smart India Hackathon 2023. We aimed to
 
 ## My Contribution:
 I majorly contributed to the web development (frontend work) of the project. I crafted an interactive web app using HTML and CSS, creating templates for crowd management, object detection, criminal detection, a main navigation page, and an about us page. Collaborating with my teammate, we utilized Flask to dynamically serve content, seamlessly integrating with Python scripts for functionalities like object detection and potentially face recognition.
+
+## Video for working of project(Download it raw)
+https://github.com/Parv-Agrawal26/SecureVision-SIH-2023/blob/b0a44b01e5d43632f8740dba2383d568721adc2e/RelatedDocs/SecureVision.mp4
