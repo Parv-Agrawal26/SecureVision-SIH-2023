@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route('/crowd_management')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', css_file='stylescrowd.css')
 
 
 @app.route('/run_crowd_management')
@@ -26,7 +26,7 @@ def run_crowd_management():
 
 @app.route('/object_detection')
 def index2():
-    return render_template('index2.html')
+    return render_template('index2.html', css_file='stylesobject.css')
 
 
 @app.route('/run_object_detection')
@@ -41,7 +41,7 @@ def run_object_detection():
 
 @app.route('/facial_req')
 def index3():
-    return render_template('index3.html')
+    return render_template('index3.html', css_file='stylescriminal.css')
 
 
 @app.route('/run_facial_req')

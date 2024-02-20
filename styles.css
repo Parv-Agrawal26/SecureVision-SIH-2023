@@ -1,0 +1,121 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #bbbfd9, #51b8da);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+header {
+    font-size: 2.5rem;
+    color: #060606;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 4px rgba(58, 57, 57, 0.7);
+    font-weight: bold;
+    font-family: 'YourFont', sans-serif;
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+.description h2 {
+    color: #5472d6;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.description ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.description ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.button {
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    background: linear-gradient(180deg, #37cab6 0%, #0a4265 100%);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    margin-right: 10px
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+.button:hover::before {
+    transform: translateY(-100%);
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-link {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    background: #007bff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.about-link:hover {
+    background: #0056b3;
+}
